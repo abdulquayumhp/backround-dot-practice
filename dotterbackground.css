@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;900&display=swap");
+/* google font  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.button {
+  padding: 10px 30px;
+  background: coral;
+  color: #fff;
+}
+.button-two {
+  margin: 0 20px;
+}
+.dotted-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dotted-content {
+  width: 50px;
+  height: 98vh;
+  z-index: 1;
+}
+
+.dotted-box {
+  width: 5px;
+  height: 5px;
+  border-radius: 2px;
+  background: rgb(209, 200, 200);
+  position: relative;
+}
+.one {
+  animation: amimation 1.5s linear 1s infinite;
+}
+.two {
+  animation: amimation 1.7s linear 1s infinite;
+}
+.three {
+  animation: amimation 1.9s linear 1s infinite;
+}
+.four {
+  animation: amimation 2s linear 1s infinite;
+}
+.five {
+  animation: amimation 1s linear 1s infinite;
+}
+.six {
+  animation: amimation 1.2s linear 1s infinite;
+}
+.seven {
+  animation: amimation 1.3s linear 1s infinite;
+}
+.eight {
+  animation: amimation 1.5s linear 1s infinite;
+}
+.nine {
+  animation: amimation 2s linear 1s infinite;
+}
+.ten {
+  animation: amimation 2.4s linear 1s infinite;
+}
+@keyframes amimation {
+  0% {
+    top: 5%;
+    left: 0%;
+  }
+  50% {
+    top: 100%;
+    left: 90%;
+  }
+
+  100% {
+    top: 0%;
+    left: 90%;
+  }
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.navbar {
+  width: 100%;
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  top: 0;
+}
+nav {
+  width: 100%;
+  height: 4rem;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.navitem li a {
+  color: #000;
+}
+.hero-item-container {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.hero-item-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.logo {
+  font-size: 2rem;
+}
+.logo span {
+  color: coral;
+}
+.hero-write-box {
+  width: 40%;
+  z-index: 10;
+}
+.hero-write-box h1 {
+  font-size: 5rem;
+}
+.hero-write-box h2 {
+  font-size: 5rem;
+}
+.hero-write-box h2 strong {
+  color: coral;
+}
+.hero-write-box h2 span {
+  font-size: 4rem;
+  font-weight: 400;
+}
+.hero-write-box h4 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+.hero-write-image {
+  width: 40%;
+  z-index: 10;
+}
+
+.hero-write-image img {
+  width: 80%;
+}
